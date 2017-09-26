@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="0"
+            tests="1">
+
+  <testsuite name="log"
+    errors="4" failures="0" hostname="" id="" package="log" skipped="0"
+    tests="1" time="37.64" timestamp="Wed, 06 Sep 2017 19:26:39 GMT">
+  
+    <testcase name="Demo login test" classname="log" time="37.64" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;//input[@id='login_email'][6]&quot; using: xpath
+    at Object.Demo login test (C:\Project\tests\log.js:12:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;//input[@id='login_email'][6]&quot; using: xpath
+    at Object.Demo login test (C:\Project\tests\log.js:13:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;//input[@id='login_password'][6]&quot; using: xpath
+    at Object.Demo login test (C:\Project\tests\log.js:15:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;//input[@id='login_password'][6]&quot; using: xpath
+    at Object.Demo login test (C:\Project\tests\log.js:17:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

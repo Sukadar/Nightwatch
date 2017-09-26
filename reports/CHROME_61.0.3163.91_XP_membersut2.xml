@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="14"
+            failures="1"
+            tests="1">
+
+  <testsuite name="membersut2"
+    errors="14" failures="1" hostname="" id="" package="membersut2" skipped="0"
+    tests="1" time="92.49" timestamp="Tue, 19 Sep 2017 14:56:48 GMT">
+  
+    <testcase name="signup via email for temp-2" classname="membersut2" time="92.49" assertions="2">
+
+      <failure message="Testing if element &lt;(//div[@class='dialog form-fieldset'])[3]/button&gt; is visible. Element could not be located.">    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:71:15)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;(//input[@id='member_email'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:45:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_first_name'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:47:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_first_name'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:49:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_last_name'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:51:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_last_name'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:53:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//select[@id='member_country'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:55:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//select[@id='member_country'])[6]/option[1]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:57:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_zip_code'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:59:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_zip_code'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:61:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_birthday'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:63:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//input[@id='member_birthday'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:65:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//select[@id='member_gender'])[6]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:67:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//select[@id='member_gender'])[6]/option[3]&quot; using: xpath
+    at Object.signup via email for temp-2 (C:\Project\tests\membersut2.js:69:8)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;(//div[@class='dialog form-fieldset'])[3]/button&quot; using: xpath
+    at command (C:\Project\nightwatch\lib\api\assertions\visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (C:\Project\nightwatch\lib\core\assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (C:\Project\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Project\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Project\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Project\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Project\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Project\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Project\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Project\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
