@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="survey"
+    errors="0" failures="0" hostname="" id="" package="survey" skipped="0"
+    tests="1" time="329.2" timestamp="Thu, 05 Oct 2017 15:02:40 GMT">
+  
+    <testcase name="signup via email for temp-2" classname="survey" time="329.2" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
