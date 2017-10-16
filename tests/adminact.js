@@ -40,7 +40,7 @@ module.exports = {
       .pause(2000)
       .clearValue("(//textarea[@type='text'])[1]")
       .pause(3000)
-      .setValue("(//textarea[@type='text'])[1]",'This is activity name')
+      .setValue("(//textarea[@type='text'])[1]",'Test Activity offer')
       .pause(3000)
       .click("(//textarea[@rows='1'])[2]")
       .pause(2000)

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="actaccept"
+    errors="1" failures="0" hostname="" id="" package="actaccept" skipped="0"
+    tests="1" time="0.01600" timestamp="Tue, 10 Oct 2017 18:08:13 GMT">
+  
+    <testcase name="signin via email for temp-2" classname="actaccept" time="0.01600" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Actaccept / signin via email for temp-2]:
+
+  ReferenceError: click is not defined
+    at Object.signin via email for temp-2 (C:\Project\tests\actaccept.js:71:7)
+    at Module.call (C:\Project\nightwatch\lib\runner\module.js:62:34)
+    at C:\Project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

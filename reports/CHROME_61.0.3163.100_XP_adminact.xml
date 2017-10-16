@@ -5,9 +5,9 @@
 
   <testsuite name="adminact"
     errors="0" failures="0" hostname="" id="" package="adminact" skipped="0"
-    tests="1" time="283.0" timestamp="Tue, 10 Oct 2017 14:43:57 GMT">
+    tests="1" time="463.0" timestamp="Mon, 16 Oct 2017 17:59:57 GMT">
   
-    <testcase name="signin via email for temp-2" classname="adminact" time="283.0" assertions="7">
+    <testcase name="signin via email for temp-2" classname="adminact" time="463.0" assertions="7">
 
     
 
