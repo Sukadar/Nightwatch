@@ -1,5 +1,5 @@
 module.exports = {
-  'signin via email for temp-2' : function (browser) {
+  'set up activity' : function (browser) {
     browser
     .url(browser.globals.urls.adminurl)
     .windowMaximize("current")

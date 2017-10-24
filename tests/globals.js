@@ -8,7 +8,7 @@ module.exports = {
   postalcode:'K1A0B1',
   dob:'10-10-1980',
   lcn:'123456789012',
-  adminemail:'sukrao1@yopmail.com',
+  adminemail:'test@yopmail.com',
   adminpassword:'General1234#',
   surveyname:'survey',
   activityname:'Test Activity',
